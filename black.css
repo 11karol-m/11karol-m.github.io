@@ -1,0 +1,36 @@
+/* Estilos base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Imagen de fondo */
+body {
+    background-image: url("bmessi.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos del enlace de regreso */
+.back {
+    color: #000000;
+    position: fixed;
+    right: 5%; /* Ajustado para la responsividad */
+    bottom: 5%; /* Ajustado para la responsividad */
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vw; /* Tamaño de fuente responsivo basado en el ancho de la ventana del navegador */
+    text-shadow: 0 0 4px #FFCFF6;
+    white-space: nowrap;
+}
+
+/* Consultas de medios para diseño responsivo */
+@media screen and (max-width: 768px) {
+    /* Ajustar posición del enlace de regreso para pantallas más pequeñas */
+    .back {
+        right: 10px;
+        bottom: 10px;
+        font-size: 14px; /* Ajustar tamaño de fuente para pantallas más pequeñas */
+    }
+}
